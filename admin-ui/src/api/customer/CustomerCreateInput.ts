@@ -3,5 +3,6 @@ import { TransactionWhereUniqueInput } from "../transaction/TransactionWhereUniq
 export type CustomerCreateInput = {
   firstName?: string | null;
   lastName?: string | null;
+  phone?: string | null;
   transaction?: TransactionWhereUniqueInput | null;
 };

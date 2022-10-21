@@ -56,6 +56,17 @@ class Customer {
 
   @ApiProperty({
     required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  phone!: string | null;
+
+  @ApiProperty({
+    required: false,
     type: () => Transaction,
   })
   @ValidateNested()

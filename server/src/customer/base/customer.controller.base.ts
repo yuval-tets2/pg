@@ -60,6 +60,7 @@ export class CustomerControllerBase {
         firstName: true,
         id: true,
         lastName: true,
+        phone: true,
 
         transaction: {
           select: {
@@ -91,6 +92,7 @@ export class CustomerControllerBase {
         firstName: true,
         id: true,
         lastName: true,
+        phone: true,
 
         transaction: {
           select: {
@@ -123,6 +125,7 @@ export class CustomerControllerBase {
         firstName: true,
         id: true,
         lastName: true,
+        phone: true,
 
         transaction: {
           select: {
@@ -172,6 +175,7 @@ export class CustomerControllerBase {
           firstName: true,
           id: true,
           lastName: true,
+          phone: true,
 
           transaction: {
             select: {
@@ -212,6 +216,7 @@ export class CustomerControllerBase {
           firstName: true,
           id: true,
           lastName: true,
+          phone: true,
 
           transaction: {
             select: {

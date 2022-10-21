@@ -211,6 +211,7 @@ export class TransactionControllerBase {
         firstName: true,
         id: true,
         lastName: true,
+        phone: true,
 
         transaction: {
           select: {
