@@ -61,6 +61,15 @@ class CustomerOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
+  phone?: SortOrder;
+
+  @ApiProperty({
+    required: false,
+    enum: ["asc", "desc"],
+  })
+  @Field(() => SortOrder, {
+    nullable: true,
+  })
   transactionId?: SortOrder;
 
   @ApiProperty({
